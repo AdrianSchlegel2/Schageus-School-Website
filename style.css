@@ -1,0 +1,749 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700);
+
+
+/*Generell*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#f5f5f5;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-weight: 300;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.popout-container{
+    position:absolute;
+    bottom: 240px;
+    left: 600px;
+    width: 500px;
+    height: 300px;
+}
+
+
+.image_container{
+    position:relative;
+    text-align: center;
+    width: 85%;
+    height: 700px;
+}
+
+.popout{
+    background-color: #ececec;
+    padding: 5px;
+    margin-top: 300px;
+    margin-left: 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.rightSideBar{
+    background-color:#f5f5f5;
+    height: 100%;
+    width: 15%;
+    float: right;
+}
+
+.insta, .twitter, .facebook{
+    margin-left: 25px;
+    width: 25px;
+    height:auto;
+    position:fixed;
+}
+
+.insta{
+    margin-top: 100px;
+}
+
+.twitter{
+    margin-top: 160px;
+}
+
+.facebook{
+    margin-top: 220px;
+}
+
+.social-media{
+    width: 75px;
+    height:200px;
+    margin-top: 250px;
+    margin-left: 55%;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    background:#f5f5f5;
+    padding: 50px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color:#1d2e6f;
+    width: 30px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color:#C32828;
+}
+
+.kontaktanfrage{
+    margin: 0;
+    width: 100%;
+    height: 650px;
+    background-color: #1d2e6f;
+    padding-top: 30px;
+}
+
+.title-bottom{
+    color:white;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.input{
+    margin-top: 20px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 500px;
+    position: absolute;
+}
+
+input[type=text] {
+    width: 450px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: #1d2e6f;
+}
+
+textarea{
+    border: none;
+    width: 945px;
+    padding-bottom: 100px;
+    color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #1d2e6f inset;
+    -webkit-text-fill-color: #ececec;
+    margin-top: 10px;
+    resize:none;
+    border-bottom: 1px solid white;
+}
+
+textarea:focus{
+    border: solid white 1px;
+    border-radius: 0mm;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+textarea:hover{
+    border: solid white 1px;
+}
+
+.container-input{
+    width: 475px;
+    height: 85px;
+    display: inline-block;
+    margin-left:15px;
+}
+
+::placeholder{
+    color:#ececec;
+}
+
+input:focus{
+    border: solid white 1px;
+    border-radius: 0mm;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+input{
+    color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #1d2e6f inset;
+    -webkit-text-fill-color: #ececec;
+    margin-top: 10px;
+}
+
+input:hover{
+    border: solid white 1px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+
+.comment-input{
+    width:975px;
+    height: 165px;
+    margin-left: 15px;
+}
+
+.info{
+    width: 945px;
+    height: 150px;
+    margin-left: 515px;
+    margin-top: 400px;
+    margin-bottom: 0;
+}
+
+.comment-button-container{
+    width:975px;
+    height: 200px;
+}
+
+.comment-button{
+    text-align: center;
+    width: 115px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 425px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+}
+
+.comment-button:hover{
+    text-decoration: none;
+    background-color: #C32828;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.comment-button-text{
+    color:white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.up{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -20px;
+    right: -880px;
+}
+
+.current{
+    color: #C32828;
+}
+
+.info-text{
+    color: white;
+}
+
+.tel-email{
+    float: right;
+    margin-right: 10px;
+    margin-top: -40px;
+}
+
+.infos{
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.text-container{
+    width: 680px;
+    height: 900px;
+    background-color: blueviolet;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.text-number, h2{
+    text-align: left;
+    font-size: 30px;
+    color: #1d2e6f;
+    margin-bottom: 0;
+
+}
+
+.text-main, ul{
+    list-style-type: circle;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+/*Cookies*/
+
+
+.cookie-popup{
+   background-color: #1d2e6f;
+   padding: 20px 0;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1;
+
+}
+
+.cookie-popup .cookie-container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+.content-wrap .cookie-popup .cookie-container{
+    width: 490px;
+    float: left;   
+}
+
+span{
+    font-size: 14;
+    font-weight: 700;
+    color: white;
+    display: block;
+}
+
+abbr{
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    display:block;
+}
+
+.button-wrap {
+    width: 400px;
+    float: right;
+    display: flex;
+    margin-right: 50px;
+}
+
+a.button{
+    width: 188px;
+    color: white;
+    padding: 12px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid white;
+    margin: 2px 5px 0;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+a.button:hover{
+    background-color: #C32828;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.no-scrolling{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*Start*/
+
+
+.popout-start{
+    background-color: #ececec;
+    padding-top: 5px;
+}
+
+h4{
+    color: #1d2e6f;
+    font-size: 32px;
+    margin-top: 0;
+    font-weight: 0;
+}
+
+.mehr-erfahren-dünn{
+    width: 135px;
+    height: 25px;
+    color: #C32828;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.mehr-erfahren-dünn:hover{
+    color: #1d2e6f;
+}
+
+
+.text-blue-bar {
+    margin-left: 475px;
+}
+
+.white-bar{
+    background-color: white;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+}
+
+.preview-text-container{
+    position: absolute;
+    width:1100px;
+    height: 750px;
+    margin-top: -150px;
+    margin-left: 450px;
+}
+
+.border-container {
+    position: relative;
+    height: 350px;
+    width: 300px;
+    margin: 25px;
+    display: inline-block;
+}
+
+.preview {
+    height: 270px;
+    width: 220px;
+    background-color: #ececec;
+    display: inline-block;
+    z-index: 20;
+    position:absolute;
+    padding: 30px;
+}
+
+.preview-border{
+    height: 330px;
+    width: 280px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: solid #ececec 3px;
+    display: inline-block;
+    z-index: 0;
+}
+
+.blue-bar{
+    z-index: 1;
+    width: 100%;
+    height: 385px;
+    background-color: #1d2e6f;
+    margin-top: 100px;
+    overflow: auto;
+    color: white;
+}
+
+
+h1{
+    color:#1d2e6f;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: left;
+    margin: 50px;
+    margin-right: 100px;
+}
+
+p .text-container{
+    color: black;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.start-text-container{
+    width: 400px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.horizontal-line{
+    z-index: 1;
+    height: 3px;
+    width: 113px;
+    background-color: #1d2e6f;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.buttons-and-popout{
+    position:absolute;
+    bottom: 150px;
+    right: 300px;
+    width: 700px;
+    height: 550px;
+}
+
+.plus:hover {
+    color: white;
+    background-color: #C32828;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.mehr-erfahren:hover {
+    color: white;
+    background-color: #1d2e6f;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.plus, .mehr-erfahren{
+    display: inline-block;
+    color: white;
+    margin: 0px;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.plus{
+    background-color: #1d2e6f;
+    margin-right: -5px;
+}
+
+.mehr-erfahren{
+    background-color: #C32828;
+
+}
+
+.buttons-popout{
+    height: 75px;
+    text-align: right;
+    margin: 0;
+}
+
+.image_container-start{
+    position:relative;
+    text-align: center;
+    width: 85%;
+    height: 900px;
+}
+
+.border{
+    border-bottom-style: solid;
+    border-color:#1d2e6f;
+    border-width: 15px;
+}
+
+.parallax{
+    background-image: url(images/fsas.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-size: 46px;
+    margin: 40px;
+    margin-left: 475px;
+}
+
+/*Konzept*/
+
+.parallax-konzept{
+    background-image: url(images/smartschool.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container-konzept{
+    width: 680px;
+    height: 850px;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.popout-container-konzept{
+    position:absolute;
+    bottom: 240px;
+    left: 600px;
+    width: 440px;
+    height: 300px;
+}
+
+/*Klassenstufen*/
+
+.parallax-klassenstufen{
+    background-image: url(images/Klassenstufen.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container-klassenstufen{
+    width: 680px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.popout-container-klassenstufen{
+    position:absolute;
+    bottom: 275px;
+    left: 600px;
+    width: 440px;
+    height: 300px;
+}
+
+/*Lernbegleiter*/
+
+.parallax-lernbegleiter{
+    background-image: url(images/Lehrer.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container-klassenstufen{
+    width: 680px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.popout-container-lehrer{
+    position:absolute;
+    bottom: 240px;
+    left: 600px;
+    width: 550px;
+    height: 300px;
+}
+
+
+/*Technologien*/
+
+.parallax-technologien{
+    background-image: url(images/technologien.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container-technologien{
+    width: 680px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.popout-container-technologie{
+    position:absolute;
+    bottom: 240px;
+    left: 600px;
+    width: 380px;
+    height: 300px;
+}
+
+/*Räume*/
+
+.parallax-räume{
+    background-image: url(images/raum.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container-räume{
+    width: 680px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.popout-container-räume{
+    position:absolute;
+    bottom: 240px;
+    left: 600px;
+    width: 300px;
+    height: 300px;
+}
+
+/*Plan*/
+
+.parallax-plan{
+    background-image: url(images/plan.jpg);
+    min-height: 535px;
+    background-attachment: fixed;
+    background-position: b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container-plan{
+    width: 680px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    left: 600px;
+}
+
+.popout-container-plan{
+    position:absolute;
+    bottom: 240px;
+    left: 600px;
+    width: 340px;
+    height: 300px;
+}
+
+/*Cookies seite darf keine Links haben*/
